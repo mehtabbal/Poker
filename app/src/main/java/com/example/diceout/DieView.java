@@ -40,7 +40,7 @@ public class DieView extends android.support.v7.widget.AppCompatImageView {
     }
 
     public void roll() {
-        value = (int) (Math.random() * 12);
+        value = (int) (Math.random() * 13);
         color = (int) (Math.random() * 4);
 
         try {
